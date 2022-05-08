@@ -616,6 +616,10 @@ section .title::after {
     margin-right: 10px;
 }
 
+#mailto {
+    color: crimson;
+}
+
 .contact .right form .field input,
 .contact .right form .textarea textarea {
     height: 100%;
@@ -663,6 +667,14 @@ section .title::after {
 .right form .button-area button:hover {
     color: crimson;
     background: none;
+}
+
+.right form .button-area button:disabled {
+    color: white;
+    background: lightgrey;
+    border: 2px solid gray;
+    pointer-events: none;
+    cursor: default;
 }
 
 
