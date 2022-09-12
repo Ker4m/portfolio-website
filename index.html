@@ -74,31 +74,49 @@
     <!-- experiences section start -->
     <section class="experiences" id="experiences">
         <div class="max-width">
-            <h2 class="title">My Experience</h2>
-            <div class="serv-content">
+            <div class="exp-header">
+                <i class="fas fa-briefcase"></i>
+                <h2 class="title">My Experience</h2>
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="carousel owl-carousel">
                 <div class="card" onclick="location.href='https://www.se.com/fr/fr/';">
                     <div class="box">
-                        <i class="fas fa-briefcase"></i>
+                        <!-- <i class="fas fa-briefcase"></i> -->
+                        <img src="images/Schneider-Electric-logo.png" alt="Schneider-electric">
                         <div class="text">Intern at Schneider Electric</div>
-                        <p>06/2021 ➜ 08/2021 : 2 months internship as assistant engineer at Schneider Electric, in Pisek, Czech Republic. My job : support the deployment of new digitalization tool in the customer satisfaction and quality department.</p>
+                        <div class="period">06/2021 ➜ 08/2021</div>
+                        <p>2 months internship as assistant engineer at Schneider Electric, in Pisek, Czech Republic. My job : support the deployment of new digitalization tool in the customer satisfaction and quality department.</p>
+                    </div>
+                </div>
+                <div class="card" onclick="location.href='https://planif.fr/';">
+                    <div class="box">
+                        <img id="planif-logo" src="images/planif-logo.svg" alt="Planif">
+                        <!-- <i class="fas fa-briefcase"></i> -->
+                        <div class="text">Front End Developer for Planif</div>
+                        <div class="period">05/2022 ➜ 08/2022</div>
+                        <p> Front End Developer in React JS as a freelance. I worked in a small team of 5 people. Planif is an online tool that connects coaches and (top) athletes. It allows you to plan and analyse your training in a simple way.</p>
                     </div>
                 </div>
                 <div class="card" onclick="location.href='https://ensimag.grenoble-inp.fr/';">
                     <div class="box">
-                        <i class="fas fa-graduation-cap"></i>
-                        <div class="text">Student at Ensimag 2020 ➜ 2023</div>
+                        <!-- <i class="fas fa-graduation-cap"></i> -->
+                        <img src="images/Ensimag-logo.svg" alt="Ensimag">
+                        <div class="text">Student at Ensimag </div>
+                        <div class="period">2020 ➜ 2023</div>
                         <p>I am a student at Grenoble INP - Ensimag, UGA, a french engineering school in computer science and applied mathematics in Grenoble. I am in the Information Systems Engineering program.</p>
                     </div>
                 </div>
                 <div class="card" onclick="location.href='https://www.aalto.fi/en';">
                     <div class="box">
-                        <i class="fas fa-graduation-cap"></i>
-                        <div class="text">Student at Aalto University autumn 2022</div>
-                        <p>I went on exchange to Aalto University in Helsinki, Finland for 1 semester. I studied software and web development as well as information security.</p>
+                        <!-- <i class="fas fa-graduation-cap"></i> -->
+                        <img src="images/aalto-logo-white.png" alt="Aalto">
+                        <div class="text">Student at Aalto University</div>
+                        <div class="period">09/2022 ➜ 12/2022</div>
+                        <p>I went on exchange to Aalto University in Helsinki, Finland for 1 semester (autumn term). I studied software and web development as well as information security.</p>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -136,6 +154,13 @@
                     </div>
                     <div class="bars">
                         <div class="info">
+                            <span>React, React-native</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
                             <span>HTML/CSS</span>
                             <span>60%</span>
                         </div>
@@ -155,13 +180,7 @@
                         </div>
                         <div class="line css"></div>
                     </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>React, React-native</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -181,28 +200,28 @@
                 </div>
                 <div class="card" onclick="location.href='https://github.com/Ker4m/AMAPplication';">
                     <div class="box">
-                        <img src="images/react-native.png" alt="">
+                        <img src="images/react-native.png" alt="react-native">
                         <div class="text">Mobile and web application</div>
                         <p>Mobile application for ios and android developed in react-native and JS. The goal of the application is to link producers and consumers and to centralize the organization of distributions.</p>
                     </div>
                 </div>
                 <div class="card" onclick="location.href='https://github.com/Ker4m/portfolio-website';">
                     <div class="box">
-                        <img src="images/css-html-js.png" alt="">
+                        <img src="images/css-html-js.png" alt="css-html-js">
                         <div class="text">This portfolio website</div>
                         <p>I coded myself this portfolio website in HTML/CSS/JS. It is also responsive.</p>
                     </div>
                 </div>
                 <div class="card" onclick="location.href='https://github.com/Ker4m/cellular-automata-java-project';">
                     <div class="box">
-                        <img src="images/Java-Logo.png" alt="">
+                        <img src="images/Java-Logo.png" alt="Java">
                         <div class="text">Cellular automate in Java</div>
                         <p>The objective of this project is to develop in Java an application allowing to simulate in a graphical way of multi-agent systems. Such as Conway's game of life.</p>
                     </div>
                 </div>
                 <div class="card" onclick="location.href='https://github.com/Ker4m/IHM-C-project';">
                     <div class="box">
-                        <img src="images/c_logo.png" alt="">
+                        <img src="images/c_logo.png" alt="C">
                         <div class="text">HMI in C</div>
                         <p>The objective was to code a Graphical User Interface in C language. Runs for instance a 2048 game.</p>
                     </div>
@@ -216,9 +235,10 @@
         <div class="max-width">
             <h2 class="title">Contact me</h2>
             <div class="contact-content">
+                <div class="text">Get in Touch</div>
+                <p>If you want to contact me, here are my personal details. If you expect a quick answer please contact me by Email or Linkedin</p>
                 <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>If you want to contact me, here are my personal details. If you expect a quick answer please contact me by Email or Linkedin</p>
+
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>

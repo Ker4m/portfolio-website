@@ -68,7 +68,7 @@ footer {
 .contact .contact-content {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
 }
 
@@ -342,43 +342,74 @@ section .title::after {
     content: "what i did";
 }
 
-.experiences .serv-content .card {
-    width: calc(33% - 20px);
+.experiences .carousel .card {
+    /* width: calc(33% - 20px); */
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 50px 25px;
+    /* padding: 50px 25px; */
+    padding: 25px 35px;
+    overflow: hidden;
     cursor: pointer;
     transition: all 0.8s ease;
 }
 
-.experiences .serv-content .card:hover {
+.experiences .carousel .card:hover {
     background: crimson;
     box-shadow: 0 0 20px crimson;
 }
 
-.experiences .serv-content .card .box {
+.experiences .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     transition: all 0.8s ease;
 }
 
-.experiences .serv-content .card:hover .box {
+.experiences .carousel .card:hover .box {
     transform: scale(1.05);
 }
 
-.experiences .serv-content .card i {
+.experiences .exp-header {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.experiences .exp-header i {
     font-size: 50px;
     color: crimson;
     transition: color 0.8s ease;
+    margin-right: 2em;
+    margin-left: 2em;
 }
 
-.experiences .serv-content .card:hover i {
-    color: #fff;
+#planif-logo {
+    height: 80px;
+    width: 80px;
 }
 
-.experiences .serv-content .card .text {
+.experiences .carousel .card .p {
+    text-align: justify !;
+}
+
+.experiences .carousel .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+
+.experiences .carousel .card .period {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: crimson;
+}
+
+.experiences .carousel .card:hover .period {
+    color: black;
 }
 
 
