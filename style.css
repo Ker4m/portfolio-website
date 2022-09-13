@@ -21,6 +21,55 @@ html {
     height: 100px;
 }
 
+.el {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: -50px;
+    background: crimson;
+    border-radius: 3px;
+    z-index: 1;
+    /*transform-origin: center bottom;*/
+}
+
+.el--small {
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    margin-top: -50px;
+    /* background: #230323; */
+    background: rgb(151, 222, 226);
+    z-index: 2;
+}
+
+.scene {
+    position: absolute;
+    left: 80%;
+    top: 70%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.shadow {
+    position: absolute;
+    left: 80%;
+    top: 120%;
+    width: 80px;
+    height: 7px;
+    margin-left: -70px;
+    margin-top: -23px;
+    /* background: #333; */
+    background: white;
+    opacity: .25;
+    border-radius: 50%;
+    z-index: 0;
+}
+
 
 /* custom scroll bar */
 
@@ -802,6 +851,39 @@ footer span a:hover {
     .contact .contact-content .column {
         width: 100%;
         margin-bottom: 35px;
+    }
+    .experiences .exp-header i {
+        display: none;
+    }
+    .el {
+        left: 50%;
+        top: 10%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+        margin-top: -50px;
+    }
+    .el--small {
+        width: 50px;
+        height: 50px;
+        margin-left: -25px;
+        margin-top: -50px;
+    }
+    .scene {
+        left: 50%;
+        top: 40%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+        margin-top: -50px;
+    }
+    .shadow {
+        left: 50%;
+        top: 80%;
+        width: 80px;
+        height: 7px;
+        margin-left: -40px;
+        margin-top: -23px;
     }
 }
 
